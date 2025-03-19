@@ -1,13 +1,5 @@
 export const certiData = [
-    'HTML',
-    'CSS',
-    'Javascript',
-    'React',
-    'MongoDB',
-    'MySQL',
-    'Git',
-    'AWS',
-    'Bootstrap',
-    'Docker',
-    'Figma',
+    "Oracle",
+    "Microsoft Certified: Azure AI Fundamentals",
+    "Harward University - CS50 AI",
   ]
