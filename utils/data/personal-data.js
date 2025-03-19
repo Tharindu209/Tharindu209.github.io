@@ -12,6 +12,6 @@ export const personalData = {
   twitter: 'https://x.com/TharinduDamruw1',
   stackOverflow: 'https://stackoverflow.com/users/18577069/thari-db01',
   leetcode: "https://leetcode.com/u/tharindudamruwan23/",
-  devUsername: "Tharindu209",
+  MediumUserName: "@tharindudamruwan23",
   resume: "https://drive.google.com/file/d/1QFoOrDKWZDU9rfW923cvZuSYKIufBNbt/view?usp=drive_link",
 }

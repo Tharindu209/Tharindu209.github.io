@@ -1,11 +1,11 @@
 export const contactsData = {
-    email: 'chaturvedianubhav520@gmail.com',
-    phone: '+919343368280',
-    address: 'Satna,Madhyapradesh',
-    github: 'https://github.com/AnubhavChaturvedi-GitHub',
-    facebook: 'https://www.facebook.com/IndianYoutuberAndSoftwareDevloper/',
-    linkedIn: 'https://www.linkedin.com/in/anubhav-chaturvedi-/',
-    twitter: 'https://twitter.com/said7388',
-    stackOverflow: 'https://stackoverflow.com/users/27312144/anubhav-chaturvedi',
-    devUsername: "anubhav520"
+    email: 'tharindudamruwan23@gmail.com',
+    phone: '+94740111343',
+    address: 'Gurudeniya, Kandy, Sri Lanka',
+    github: 'https://github.com/Tharindu209',
+    facebook: 'https://web.facebook.com/tharindu.damruwan.7/',
+    linkedIn: 'https://www.linkedin.com/in/tharindu-damruwan-880392242/',
+    twitter: 'https://x.com/TharinduDamruw1',
+    stackOverflow: 'https://stackoverflow.com/users/18577069/thari-db01',
+    MediumUserName: "@tharindudamruwan23"
 }
