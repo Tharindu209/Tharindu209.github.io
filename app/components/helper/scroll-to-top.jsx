@@ -27,9 +27,9 @@ const ScrollToTop = () => {
   const onClickBtn = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
   return (
-    <button className={btnCls} onClick={onClickBtn}>
-      <FaArrowUp />
-    </button>
+      <button className={btnCls} onClick={onClickBtn}>
+        <FaArrowUp />
+      </button>
   );
 };
 
