@@ -1,5 +1,7 @@
 // @flow strict
+'use client';
 
+import { useState, useEffect } from "react";
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,8 +10,26 @@ import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 function HeroSection() {
+  const [bar, setBar] = useState(true);
+  const [dot, setDot] = useState(false);
+
+  const handleDone = () => {
+    setTimeout(() => {
+      setBar(false);
+    }, 2000);
+    setTimeout(() => {
+      setDot('.');
+    }, 2500);
+  };
+
+  const [text] = useTypewriter({
+    words: personalData.designation,
+    loop: 1,
+    onLoopDone: handleDone,
+  });
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
@@ -27,7 +47,8 @@ function HeroSection() {
             This is {' '}
             <span className=" text-pink-500">{personalData.name}</span>
             {` , I'm a  `}
-            <span className=" text-[#16f2b3]">{personalData.designation}</span>
+            <span className=" text-[#16f2b3]">{text}</span>
+            {bar && <Cursor cursorColor={'text-[#16f2b3]'} cursorBlinking={true} />}
             .
           </h1>
 
