@@ -12,8 +12,6 @@ import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-import Resume from "@/app/components/homepage/resume";
-
 function HeroSection() {
   const [bar, setBar] = useState(true);
   const [dot, setDot] = useState(false);
@@ -29,7 +27,7 @@ function HeroSection() {
 
   const [text] = useTypewriter({
     words: personalData.designation,
-    loop: 1,
+    loop: true,
     onLoopDone: handleDone,
   });
   return (
