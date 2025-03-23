@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import Logo from '@/public/profile.PNG';
+import Logo from '@/public/LOGO.PNG';
 
 function Navbar() {
   return (
@@ -10,6 +10,7 @@ function Navbar() {
       <div className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
           <Image src={Logo} alt="Logo" width={40} height={40} />
+          <div className="mx-2"></div>
           <Link
             href="/"
             className=" text-[#16f2b3] text-3xl font-bold">

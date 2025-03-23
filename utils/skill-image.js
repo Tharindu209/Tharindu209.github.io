@@ -72,7 +72,21 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
-
+import nodejs from '/public/svg/skills/nodejs.svg';
+import oracle from '/public/svg/skills/oracle.svg';
+import langchain from '/public/svg/skills/langchain.svg';
+import pinecone from '/public/svg/skills/pinecone.svg';
+import jenkins from '/public/svg/skills/jenkins.svg';
+import gitHubActions from '/public/svg/skills/GitHubactions.svg';
+import terraform from '/public/svg/skills/terraform.svg';
+import ansible from '/public/svg/skills/ansible.svg';
+import linux from '/public/svg/skills/linux.svg';
+import kubernetes from '/public/svg/skills/kubernetes.svg';
+import librosa from '/public/svg/skills/librosa.svg';
+import hugginface from '/public/svg/skills/hf.svg';
+import supabase from '/public/svg/skills/supabase.svg';
+import plsql from '/public/svg/skills/plsql.svg';
+import fastapi from '/public/svg/skills/fastapi.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -97,7 +111,7 @@ export const skillsImage = (skill) => {
       return angular;
     case 'javascript':
       return javascript;
-    case 'next js':
+    case 'nextjs':
       return nextJS;
     case 'nuxt js':
       return nuxtJS;
@@ -225,6 +239,36 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'nodejs':
+      return nodejs;
+    case 'oracle':
+      return oracle;
+    case 'langchain':
+      return langchain;
+    case 'pinecone':
+      return pinecone;
+    case 'librosa':
+      return librosa;
+    case 'jenkins':
+      return jenkins;
+    case 'github actions':
+      return gitHubActions;
+    case 'terraform':
+      return terraform;
+    case 'ansible':
+      return ansible;
+    case 'linux':
+      return linux;
+    case 'kubernetes':
+      return kubernetes;
+    case 'hugginface':
+      return hugginface;
+    case 'supabase':
+      return supabase;
+    case 'pl/sql':
+      return plsql;
+    case 'fastapi':
+      return fastapi;
     default:
       break;
   }
