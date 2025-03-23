@@ -20,7 +20,15 @@ function ProjectCard({ project }) {
           {project.name}
         </p>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
+      <div className="grid lg:grid-rows-2 gap-2 border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
+      <div className="flex-col lg:flex-row items-center justify-between">
+           <Image
+            src={project.image}
+            alt="project.name"
+            width={150}
+            height={100}
+          />
+        </div>
         <div>
           <code className="font-mono text-xs md:text-sm lg:text-base">
             <div className="blink">
@@ -64,26 +72,6 @@ function ProjectCard({ project }) {
             </div>
             <div><span className="text-gray-400">{`};`}</span></div>
           </code>
-        </div>
-        <div>
-           <Image
-            src={project.image}
-            alt="project.name"
-            width={300}
-            height={200}
-            className="hidden sm:block rounded-t-lg shadow-2xl
-              transition 
-              group-hover:scale-[1.04]
-              group-hover:-translate-x-3
-              group-hover:translate-y-3
-              group-hover:-rotate-2
-
-              group-even:group-hover:translate-x-3
-              group-even:group-hover:translate-y-3
-              group-even:group-hover:rotate-2
-
-              group-even:right-[initial] group-even:-left-40"
-          />
         </div>
       </div>
     </div>

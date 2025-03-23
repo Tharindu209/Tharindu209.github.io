@@ -4,7 +4,7 @@ export const personalData = {
   name: "Tharindu Damruwan",
   profile: Profile,
   designation: ["AI/ML Engineer", "Full Stack Developer", "DevOps Engineer", "Software Developer"],
-  description: "Passionate about AI, ML, and digital audio programming, with a knack for crafting immersive experiences. Proficient in web development, delivering captivating interfaces, and iOS app development, creating seamless mobile experiences. Ready to contribute expertise to innovative projects at the intersection of technology, driven by a relentless pursuit of excellence.",
+  description: "Passionate about AI, DevOps, Cloud Computing, and full-stack development, with hands-on experience delivering scalable solutions. Freelance experience working with local clients to build high-quality software. FOSS volunteer, recognized in hackathons for innovation. Enthusiastic about digital audio programming, continuously exploring new ways to blend technology. Committed to continuous learning, open-source contributions, and driving impactful tech solutions.",
   email: 'tharindudamruwan23@gmail.com',
   phone: '+94740111343',
   address: 'Gurudeniya, Kandy, Sri Lanka',
