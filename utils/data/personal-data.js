@@ -1,7 +1,9 @@
+import Profile from '../../public/profile.PNG';
+
 export const personalData = {
   name: "Tharindu Damruwan",
-  profile: '/profile.PNG',
-  designation: ["Software Developer", "AI Enthusiast", "Full Stack Developer", "DevOps Engineer", ""],
+  profile: Profile,
+  designation: ["AI/ML Engineer", "Full Stack Developer", "DevOps Engineer", "Software Developer"],
   description: "Passionate about AI, ML, and digital audio programming, with a knack for crafting immersive experiences. Proficient in web development, delivering captivating interfaces, and iOS app development, creating seamless mobile experiences. Ready to contribute expertise to innovative projects at the intersection of technology, driven by a relentless pursuit of excellence.",
   email: 'tharindudamruwan23@gmail.com',
   phone: '+94740111343',
@@ -13,5 +15,4 @@ export const personalData = {
   stackOverflow: 'https://stackoverflow.com/users/18577069/thari-db01',
   leetcode: "https://leetcode.com/u/tharindudamruwan23/",
   MediumUserName: "@tharindudamruwan23",
-  resume: "https://drive.google.com/file/d/1QFoOrDKWZDU9rfW923cvZuSYKIufBNbt/view?usp=drive_link",
 }

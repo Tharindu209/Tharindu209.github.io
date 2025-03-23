@@ -12,6 +12,8 @@ import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
+import Resume from "@/app/components/homepage/resume";
+
 function HeroSection() {
   const [bar, setBar] = useState(true);
   const [dot, setDot] = useState(false);
@@ -98,7 +100,8 @@ function HeroSection() {
               </button>
             </Link>
 
-            <Link className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume}
+            <Link className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" 
+            href="/resume"
             >
               <span>Get Resume</span>
               <MdDownload size={16} />
@@ -122,7 +125,7 @@ function HeroSection() {
             <code className="font-mono text-xs md:text-sm lg:text-base">
               <div className="blink">
                 <span className="mr-2 text-pink-500">const</span>
-                <span className="mr-2 text-white">coder</span>
+                <span className="mr-2 text-white">me</span>
                 <span className="mr-2 text-pink-500">=</span>
                 <span className="text-gray-400">{'{'}</span>
               </div>
@@ -133,23 +136,23 @@ function HeroSection() {
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
-                <span className=" text-white">skills:</span>
+                <span className=" text-white">top skills:</span>
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">React</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">HTML</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">CSS</span>
+                <span className="text-amber-300">C/C++</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Java Script</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
+                <span className="text-amber-300">TensorFlow</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MongoDB</span>
+                <span className="text-amber-300">Azure</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">PSQL</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Docker</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Kubernetes</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MERN</span>
                 <span className="text-gray-400">{"'],"}</span>
@@ -190,9 +193,7 @@ function HeroSection() {
               </div>
               <div>
                 <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">skills.length</span>
-                <span className="mr-2 text-amber-300">&gt;=</span>
-                <span className="text-orange-400">5</span>
+                <span className="mr-2 text-white">skills.teamWork</span>
               </div>
               <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
               <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
