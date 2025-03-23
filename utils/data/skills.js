@@ -1,27 +1,21 @@
 export const skillsData = {
   "Languages" :[
     "Python",
-    "C/C++",
+    "C",
+    "C++",
     "JavaScript",
     "C#",
-    "SQL",
-    "Kotlin"
+    "Swift",
+    "Java",
+    "go"
   ],
   "Frontend And Backend": [
     "React",
-    "Next.js",
-    "Tailwind CSS",
+    "nextJS",
+    "tailwind",
     "FastAPI",
-    "Flask",
     "Django",
-    "Node.js",
-  ],
-  "Database": [
-    "MongoDB",
-    "PostgreSQL",
-    "MySQL",
-    "PL/SQL",
-    "Supabase",
+    "nodejs",
   ],
   "AI Framework" : [
     "TensorFlow",
@@ -33,11 +27,12 @@ export const skillsData = {
     "Librosa"
   ],
   "Cloud": [
-    "Oracle Cloud",
+    "oracle",
     "Azure",
     "AWS",
     "GCP",
     "Firebase",
+    "Supabase",
   ],
   "DevOps": [
     "Docker",
@@ -46,8 +41,14 @@ export const skillsData = {
     "GitHub Actions",
     "Jenkins",
     "Terraform",
-    "Ansible",
+    // "Ansible",
     "nginx",
     "Linux"
+  ],
+  "Database": [
+    "MongoDB",
+    "PostgreSQL",
+    "MySQL",
+    "PL/SQL",
   ],
 }

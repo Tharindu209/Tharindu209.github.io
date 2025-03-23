@@ -35,9 +35,9 @@ function Skills() {
                   <Image
                     src={skillsImage(skill)?.src}
                     alt={skill}
-                    width={5} 
-                    height={5} 
-                    className="w-4 h-4 sm:w-6 sm:h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 rounded-lg"
+                    width={10} 
+                    height={10} 
+                    className="w-6 h-6 sm:w-9 sm:h-9 md:w-12 md:h-12 lg:w-15 lg:h-15 rounded-lg"
                   />
                 </div>
               ))}
