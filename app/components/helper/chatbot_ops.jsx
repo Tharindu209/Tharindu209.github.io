@@ -15,9 +15,9 @@ const ChatBotPopUp = () => {
   };
   return (
     <div className="fixed bottom-6 left-6 flex flex-col items-end z-20">
-      {/* <div >
+      <div >
         <iframe src="https://503336a47631438da66419c0ff966ddc.elf.site/" width="350" height="500" style={{ border: "none", overflow: "hidden" }} className scrolling="no" frameBorder="0"></iframe>
-      </div> */}
+      </div>
 
       {/* {isChatOpen && (
         <Chatbot
