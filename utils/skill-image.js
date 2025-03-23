@@ -86,7 +86,7 @@ import librosa from '/public/svg/skills/librosa.svg';
 import hugginface from '/public/svg/skills/hf.svg';
 import supabase from '/public/svg/skills/supabase.svg';
 import plsql from '/public/svg/skills/plsql.svg';
-import fastapi from '/public/svg/skills/fastapi.svg';
+import fastapi from '/public/svg/skills/FastAPI.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();

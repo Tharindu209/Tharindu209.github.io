@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import Logo from '@/public/LOGO.PNG';
+import Logo from '../../public/LOGO.png';
 
 function Navbar() {
   return (
