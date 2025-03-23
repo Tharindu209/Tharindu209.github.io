@@ -12,6 +12,8 @@ import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
+import hero from "@/public/hero.svg"
+
 function HeroSection() {
   const [bar, setBar] = useState(true);
   const [dot, setDot] = useState(false);
@@ -33,7 +35,7 @@ function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
-        src="/hero.svg"
+        src={hero}
         alt="Hero"
         width={1572}
         height={795}
